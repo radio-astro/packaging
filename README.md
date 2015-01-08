@@ -3,3 +3,8 @@ Repository containing documentation and issues with packages in the launchpad PP
 
 
 https://launchpad.net/~radio-astro/
+
+
+how to make a package:
+
+https://github.com/radio-astro/packaging/wiki/Packaging
