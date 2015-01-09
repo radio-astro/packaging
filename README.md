@@ -7,11 +7,11 @@ https://launchpad.net/~radio-astro/.
 
 # installation
 
-Add the main repository to your Ubuntu system:
+Add the main repository to your Ubuntu system::
 
- $ sudo apt-get install -y software-properties-common
- $ sudo add-apt-repository ppa:ska-sa/main
- $ sudo apt-get update
+    $ sudo apt-get install -y software-properties-common
+    $ sudo add-apt-repository ppa:ska-sa/main
+    $ sudo apt-get update
 
 now you can install your radio-astro package using apt-get.
 
