@@ -36,3 +36,7 @@ To get started:
 how to make a package:
 
 https://github.com/radio-astro/packaging/wiki/Packaging
+
+Updating an existing package with a watch file:
+
+https://github.com/radio-astro/packaging/wiki/Update
