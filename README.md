@@ -33,10 +33,6 @@ To get started:
 
 # developers
 
-how to make a package:
+Check out the wiki for  documentation about various packaging related procedures:
 
-https://github.com/radio-astro/packaging/wiki/Packaging
-
-Updating an existing package with a watch file:
-
-https://github.com/radio-astro/packaging/wiki/Update
+https://github.com/radio-astro/packaging/wiki
