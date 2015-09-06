@@ -1,20 +1,22 @@
 # packaging
-This repository contains documentation and issues about packaged radio astronomy
-software. 
+This repository contains documentation and issues about packaged radio astronomy software. 
 
 You can request the packaging of new radio astronomy software by opening a new issue in this repository.
 
 
 # installation for Ubuntu LTS
 
-Make sure the universe and multiverse components are enabled in software sources (``/etc/apt/sources.list``).
-Add the main radio astronomy repository to your Ubuntu system:
+Make sure the universe and multiverse components are enabled in software sources (uncomment appropriate lines in ``/etc/apt/sources.list``, or use the Ubuntu Software Center or whatever). Then add the main radio astronomy repository to your Ubuntu system:
 
     $ sudo apt-get install -y software-properties-common
-    $ sudo add-apt-repository ppa:radio-astro/main
+    $ sudo add-apt-repository -s ppa:radio-astro/main
     $ sudo apt-get update
 
-now you can install your radio-astro package using apt-get.
+now you can install the required radio-astro package using apt-get.
+
+See https://launchpad.net/~radio-astro/+archive/ubuntu/main for a list of packages.
+
+You can also use ``apt-get build-dep packagename`` to install all the required build dependencies for a given package. This is useful if you later want to build it from source.
 
 
 # Vagrant
