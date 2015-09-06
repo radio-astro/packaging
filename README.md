@@ -7,6 +7,7 @@ You can request the packaging of new radio astronomy software by opening a new i
 
 # installation for Ubuntu LTS
 
+Make sure the universe and multiverse components are enabled in software sources (``/etc/apt/sources.list``).
 Add the main radio astronomy repository to your Ubuntu system:
 
     $ sudo apt-get install -y software-properties-common
