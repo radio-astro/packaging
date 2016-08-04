@@ -1,3 +1,7 @@
+# note
+
+This project has been superseded by the Kern Suite. Checkout the kern suite page for more info: http://kernsuite.info/
+
 # packaging
 This repository contains documentation and issues about packaged radio astronomy software. 
 
